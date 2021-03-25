@@ -1,0 +1,22 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+div{
+    display: block;
+}
+.logo {
+  /*margin: auto;
+  
+  padding: 10px;*/
+  width: auto
+  object-position: center bottom;
+}
+.searchcontainer {
+  position: relative;
+}
+
+.searchbar {
+  position: relative;
+  top: 20px;
+}
