@@ -1,0 +1,1 @@
+This is a sample project from https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css. Everything completed on this project will be following their tutorial or me attempting to add my own elements and practice.
