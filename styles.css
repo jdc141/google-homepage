@@ -1,3 +1,11 @@
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding: 20px;
+  padding-bottom: 50px;
+}
 body {
   font-family: arial, sans-serif;
   font-size: 14px;
@@ -12,12 +20,17 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+.carbon-neutral {
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 4px;
   height: 60px;
 }
+
 a:link {
   text-decoration: none;
 }
@@ -28,6 +41,17 @@ li {
   display: inline;
   color: #222;
 }
+footer {
+  position: relative;
+  display: inline;
+}
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+  padding-bottom: 0;
+}
+
 .left {
   float: left;
   padding: 4px;
@@ -42,9 +66,17 @@ li {
 }
 
 .buttons {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 100px;
+  padding-bottom: 400px;
 }
 
-.footer {
+.footer-left {
+  float: left;
+  padding: 2px;
+  margin-right: 20px;
+}
+.footer-right {
+  float: right;
+  padding: 2px;
+  margin-left: 20px;
 }
